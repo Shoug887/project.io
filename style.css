@@ -1,0 +1,215 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  list-style: none;
+    text-decoration: none;
+  }
+
+  /* Apply a background color and text styles to the body */
+  body {
+    background-color: #cbc6c5;
+    font-family: Arial, sans-serif;
+    color: #8d6e6e;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+
+  }
+
+  header {
+    background-color: #cac5c4;
+    padding: 15px;
+    box-shadow: #3a3333;
+  }
+  header ul li {
+    display: flex;
+    padding-left: 45px;
+
+  }
+  header li a{
+    padding: 13px;
+    text-decoration: none;
+    transition: .3s ease;
+    margin-left: 100px;
+  }
+  header li a:hover{
+  }
+  logo_container{
+    display: table;
+    height: 100%;
+    float: left;
+  }
+  logo_container h1{
+    color: #8c6e6e;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+  }
+  logo_container h1 span {
+    font-weight: 800;
+  }
+
+
+
+nav img{
+  height: 40px;
+}
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #7a5151;
+    font-weight: bold;
+
+  }
+  
+  /* Style the hero section */
+  #hero {
+     background-image: url('tech/pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: #bdbcbd;
+  }
+  /* Welcome to Your Startup Company*/
+  .hero-content h1 {
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: 500;
+  }
+  /* We provide innovative solutions to help businesses thrive. */
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 55px;
+  }
+  /*button get started*/
+  .btn {
+    padding: 30px 30px;
+    background-color: #5492a4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 80px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Style the sections */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 60px;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    background-color: #ded6d6;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(141, 49, 49, 0.1);
+    text-align: center;
+  }
+  
+  .service-card img {
+    max-width: 250px;
+    margin-bottom: 60px;
+    border-radius: 80%;
+    taxt-align : center;
+    /*width: 30%;
+    display: inline-block;
+    padding: 0 2rem;
+
+    taxt-align : center*/
+
+  }
+  
+  .service-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+  }
+  
+  /* Style the contact form */
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d9d7d7;
+    border-radius: 4px;
+  }
+  
+  form button[type='submit'] {
+    padding: 12px 24px;
+    background-color: #5492a4;
+    color: #f6f4f4;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type='submit']:hover {
+    background-color: #555;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #5491a3;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  #about{
+    padding: 20px 10%;
+  }
+  #about img{
+    margin-top: 50px;
+  }
+  #contact{
+  padding: 20px 10%;
+   line-height: 50px;
+  }
+  #contact h2{
+    margin-bottom: 1rem;
+  }
+  #logo_container {
+    margin-top: 50px;
+  }
